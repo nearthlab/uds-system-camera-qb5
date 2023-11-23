@@ -1,0 +1,205 @@
+--- src/vendor/qcom/proprietary/chi-cdk/oem/qcom/topology/linuxusecase-components/target_buffers/common_target_buffers.xml
++++ src/vendor/qcom/proprietary/chi-cdk/oem/qcom/topology/linuxusecase-components/target_buffers/common_target_buffers.xml
+@@ -34,6 +34,25 @@
+       <MaxH>239</MaxH>
+     </Range>
+   </TargetSegment>
++  <TargetSegment name="0_0_9248_6944_ChiFormatP010">
++    <TargetFormat>ChiFormatP010</TargetFormat>
++    <Range>
++      <MinW>0</MinW>
++      <MinH>0</MinH>
++      <MaxW>9248</MaxW>
++      <MaxH>6944</MaxH>
++    </Range>
++  </TargetSegment>
++  <TargetSegment name="0_0_9248_6944_ChiFormatP010_ChiFormatUBWCTP10">
++    <TargetFormat>ChiFormatP010</TargetFormat>
++    <TargetFormat>ChiFormatUBWCTP10</TargetFormat>
++    <Range>
++      <MinW>0</MinW>
++      <MinH>0</MinH>
++      <MaxW>9248</MaxW>
++      <MaxH>6944</MaxH>
++    </Range>
++  </TargetSegment>
+   <TargetSegment name="0_0_5488_4112_ChiFormatP010">
+     <TargetFormat>ChiFormatP010</TargetFormat>
+     <Range>
+@@ -162,6 +181,34 @@
+       <MaxH>3456</MaxH>
+     </Range>
+   </TargetSegment>
++  <TargetSegment name="0_0_5312_6944_ChiFormatJpeg">
++    <TargetFormat>ChiFormatJpeg</TargetFormat>
++    <Range>
++      <MinW>0</MinW>
++      <MinH>0</MinH>
++      <MaxW>5312</MaxW>
++      <MaxH>6944</MaxH>
++    </Range>
++  </TargetSegment>
++  <TargetSegment name="0_0_9248_6944_ChiFormatJpeg">
++    <TargetFormat>ChiFormatJpeg</TargetFormat>
++    <Range>
++      <MinW>0</MinW>
++      <MinH>0</MinH>
++      <MaxW>9248</MaxW>
++      <MaxH>6944</MaxH>
++    </Range>
++  </TargetSegment>
++  <TargetSegment name="0_0_9248_6944_ChiFormatRawMIPI">
++    <TargetFormat>ChiFormatRawMIPI</TargetFormat>
++    <TargetFormat>ChiFormatRawMIPI12</TargetFormat>
++    <Range>
++      <MinW>0</MinW>
++      <MinH>0</MinH>
++      <MaxW>9248</MaxW>
++      <MaxH>6944</MaxH>
++    </Range>
++  </TargetSegment>
+   <TargetSegment name="0_0_5312_4112_ChiFormatJpeg">
+     <TargetFormat>ChiFormatJpeg</TargetFormat>
+     <Range>
+@@ -202,6 +249,124 @@
+       <MaxH>6000</MaxH>
+     </Range>
+   </TargetSegment>
++  <TargetSegment name="0_0_9248_6944_ChiFormatRawPlain16">
++    <TargetFormat>ChiFormatRawPlain16</TargetFormat>
++    <Range>
++      <MinW>0</MinW>
++      <MinH>0</MinH>
++      <MaxW>9248</MaxW>
++      <MaxH>6944</MaxH>
++    </Range>
++  </TargetSegment>
++  <TargetSegment name="0_0_9248_6944_ChiFormatRawPlain16_ChiFormatRawMIPI">
++    <TargetFormat>ChiFormatRawPlain16</TargetFormat>
++    <TargetFormat>ChiFormatRawMIPI</TargetFormat>
++    <TargetFormat>ChiFormatRawMIPI12</TargetFormat>
++    <Range>
++      <MinW>0</MinW>
++      <MinH>0</MinH>
++      <MaxW>9248</MaxW>
++      <MaxH>6944</MaxH>
++    </Range>
++  </TargetSegment>
++  <TargetSegment name="0_0_9248_6944_ChiFormatY16_ChiFormatY8">
++    <TargetFormat>ChiFormatY16</TargetFormat>
++    <TargetFormat>ChiFormatY8</TargetFormat>
++    <Range>
++      <MinW>0</MinW>
++      <MinH>0</MinH>
++      <MaxW>9248</MaxW>
++      <MaxH>6944</MaxH>
++    </Range>
++  </TargetSegment>
++  <TargetSegment name="0_0_9248_6944_ChiFormatYUV420NV12">
++    <TargetFormat>ChiFormatYUV420NV12</TargetFormat>
++    <Range>
++      <MinW>0</MinW>
++      <MinH>0</MinH>
++      <MaxW>9248</MaxW>
++      <MaxH>6944</MaxH>
++    </Range>
++  </TargetSegment>
++  <TargetSegment name="0_0_9248_6944_ChiFormatPD10">
++    <TargetFormat>ChiFormatPD10</TargetFormat>
++    <Range>
++      <MinW>0</MinW>
++      <MinH>0</MinH>
++      <MaxW>9248</MaxW>
++      <MaxH>6944</MaxH>
++    </Range>
++  </TargetSegment>
++  <TargetSegment name="0_0_9248_6944_ChiFormatUBWCTP10">
++    <TargetFormat>ChiFormatUBWCTP10</TargetFormat>
++    <Range>
++      <MinW>0</MinW>
++      <MinH>0</MinH>
++      <MaxW>9248</MaxW>
++      <MaxH>6944</MaxH>
++    </Range>
++  </TargetSegment>
++  <TargetSegment name="0_0_9248_6944_ChiFormatUBWCNV124R">
++    <TargetFormat>ChiFormatUBWCNV124R</TargetFormat>
++    <Range>
++      <MinW>0</MinW>
++      <MinH>0</MinH>
++      <MaxW>9248</MaxW>
++      <MaxH>6944</MaxH>
++    </Range>
++  </TargetSegment>
++  <TargetSegment name="0_0_9248_6944_ChiFormatYUV420NV12_ChiFormatUBWCNV12">
++    <TargetFormat>ChiFormatYUV420NV12</TargetFormat>
++    <TargetFormat>ChiFormatUBWCNV12</TargetFormat>
++    <Range>
++      <MinW>0</MinW>
++      <MinH>0</MinH>
++      <MaxW>9248</MaxW>
++      <MaxH>6944</MaxH>
++    </Range>
++  </TargetSegment>
++  <TargetSegment name="0_0_9248_6944_ChiFormatYUV420NV12_ChiFormatUBWCNV12_ChiFormatUBWCTP10">
++    <TargetFormat>ChiFormatYUV420NV12</TargetFormat>
++    <TargetFormat>ChiFormatUBWCNV12</TargetFormat>
++    <TargetFormat>ChiFormatUBWCTP10</TargetFormat>
++    <Range>
++      <MinW>0</MinW>
++      <MinH>0</MinH>
++      <MaxW>9248</MaxW>
++      <MaxH>6944</MaxH>
++    </Range>
++  </TargetSegment>
++  <TargetSegment name="0_0_9248_6944_ChiFormatYUV420NV12_ChiFormatUBWCTP10">
++    <TargetFormat>ChiFormatYUV420NV12</TargetFormat>
++    <TargetFormat>ChiFormatUBWCTP10</TargetFormat>
++    <Range>
++      <MinW>0</MinW>
++      <MinH>0</MinH>
++      <MaxW>9248</MaxW>
++      <MaxH>6944</MaxH>
++    </Range>
++  </TargetSegment>
++  <TargetSegment name="0_0_9248_6944_ChiFormatYUV420NV12_ChiFormatYUV420NV21">
++    <TargetFormat>ChiFormatYUV420NV12</TargetFormat>
++    <TargetFormat>ChiFormatYUV420NV21</TargetFormat>
++    <Range>
++      <MinW>0</MinW>
++      <MinH>0</MinH>
++      <MaxW>9248</MaxW>
++      <MaxH>6944</MaxH>
++    </Range>
++  </TargetSegment>
++  <TargetSegment name="0_0_9248_6944_ChiFormatYUV420NV12_ChiFormatYUV420NV21_ChiFormatUBWCTP10">
++    <TargetFormat>ChiFormatYUV420NV12</TargetFormat>
++    <TargetFormat>ChiFormatYUV420NV21</TargetFormat>
++    <TargetFormat>ChiFormatUBWCTP10</TargetFormat>
++    <Range>
++      <MinW>0</MinW>
++      <MinH>0</MinH>
++      <MaxW>9248</MaxW>
++      <MaxH>6944</MaxH>
++    </Range>
++  </TargetSegment>
+   <TargetSegment name="0_0_5488_4112_ChiFormatRawPlain16">
+     <TargetFormat>ChiFormatRawPlain16</TargetFormat>
+     <Range>
+@@ -386,6 +551,16 @@
+       <MaxH>216</MaxH>
+     </Range>
+   </TargetSegment>
++  <TargetSegment name="0_0_9248_6944_ChiFormatY16_ChiFormatRawDepth">
++    <TargetFormat>ChiFormatY16</TargetFormat>
++    <TargetFormat>ChiFormatRawDepth</TargetFormat>
++    <Range>
++      <MinW>0</MinW>
++      <MinH>0</MinH>
++      <MaxW>9248</MaxW>
++      <MaxH>6944</MaxH>
++    </Range>
++  </TargetSegment>
+   <TargetSegment name="0_0_5488_4112_ChiFormatY16_ChiFormatRawDepth">
+     <TargetFormat>ChiFormatY16</TargetFormat>
+     <TargetFormat>ChiFormatRawDepth</TargetFormat>

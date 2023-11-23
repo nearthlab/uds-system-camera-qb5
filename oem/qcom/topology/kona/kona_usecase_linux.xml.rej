@@ -1,0 +1,13 @@
+--- src/vendor/qcom/proprietary/chi-cdk/oem/qcom/topology/kona/kona_usecase_linux.xml
++++ src/vendor/qcom/proprietary/chi-cdk/oem/qcom/topology/kona/kona_usecase_linux.xml
+@@ -2169,8 +2169,8 @@
+         <Range>
+           <MinW>0</MinW>
+           <MinH>0</MinH>
+-          <MaxW>8000</MaxW>
+-          <MaxH>6000</MaxH>
++          <MaxW>9248</MaxW>
++          <MaxH>6944</MaxH>
+         </Range>
+       </Target>
+     </Targets>

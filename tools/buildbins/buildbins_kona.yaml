@@ -1,0 +1,10 @@
+sensor_drivers:
+- com.qti.sensormodule.sunny_ov64b40:
+    - sensor/ov64b40/ov64b40_sensor.xml
+    - module/sunny_ov64b40_module.xml
+
+- com.qti.sensormodule.cmk_ov9282_cam2:
+    - sensor/ov9282_mod/ov9282_sensor_mod.xml
+    - module/cmk_ov9282_module_cam2.xml
+
+
